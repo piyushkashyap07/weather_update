@@ -25,7 +25,7 @@ jobs:
       - name: Execute Python script and capture output
         id: execute-script
         env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+          SOME_SECRET: ${{ Secrets.SOME_SECRET }}
         run: |
           python main.py > output.txt
           echo "::set-output name=output::$(cat output.txt)"
@@ -40,7 +40,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          github_token: ${{ Secrets.MY_GITHUB_TOKEN }}
           branch: master
 
       - name: Display script output
