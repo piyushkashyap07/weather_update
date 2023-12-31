@@ -4,3 +4,5 @@
 2023-12-31 12:16:14,256 - __main__ - INFO - Weather in Berlin: 4.33
 2023-12-31 12:16:46,786 - __main__ - INFO - Token value: Token not available!
 2023-12-31 12:16:48,570 - __main__ - INFO - Weather in Berlin: 4.33
+2023-12-31 07:44:23,002 - __main__ - INFO - Token value: 1234
+2023-12-31 07:44:23,652 - __main__ - INFO - Weather in Berlin: 4.72
